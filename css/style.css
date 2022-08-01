@@ -5161,3 +5161,14 @@ h2.title_section{
 .for_form ul{
 	padding-left: 20px;
 }
+
+#faq h4{
+	margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#faq p{
+	font-size: 14px;
+	line-height: inherit;
+	padding-bottom: 0;
+}
