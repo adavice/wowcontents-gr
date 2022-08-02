@@ -230,8 +230,8 @@ img {
 	margin-top: 9px;
 }
 
-@media screen and (max-width: 768px){
-	.navbar-header a{
+@media screen and (max-width: 768px) {
+	.navbar-header a {
 		margin-top: 0px;
 	}
 }
@@ -1662,9 +1662,9 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .games .gallery-grids {
 	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .games .gallery-grid {
@@ -2605,13 +2605,13 @@ li>a {
 	border: 1px solid var(--bright);
 }
 
-h2.terms_title{
-	font-weight: bold; 
+h2.terms_title {
+	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .terms ul {
-	list-style-type: disc; 
+	list-style-type: disc;
 	padding-left: 15px;
 }
 
@@ -3287,7 +3287,7 @@ h2.terms_title{
 		font-size: 1.4em;
 	}
 
-	.view .button{
+	.view .button {
 		margin: 10px auto 5px;
 	}
 
@@ -3975,6 +3975,7 @@ h2.terms_title{
 }
 
 @media screen and (max-width:600px) {
+
 	.new-grid-ltpwrl,
 	.new-grid-agile {
 		padding: 0px 5px;
@@ -3984,7 +3985,7 @@ h2.terms_title{
 		margin-top: 1em;
 	}
 
-	.footer_container{
+	.footer_container {
 		flex-direction: column;
 	}
 
@@ -3995,7 +3996,7 @@ h2.terms_title{
 		float: left;
 	}
 
-	.footer-right-ltpwr{
+	.footer-right-ltpwr {
 		align-items: flex-start !important;
 	}
 
@@ -4075,8 +4076,8 @@ h2.terms_title{
 		float: left;
 	}
 
-	.games .new-grid-ltpwrl, 
-	.games .new-grid-agile{
+	.games .new-grid-ltpwrl,
+	.games .new-grid-agile {
 		width: 100%;
 	}
 
@@ -4468,7 +4469,7 @@ h2.terms_title{
 	}
 }
 
-@media screen and (max-width: 497px){
+@media screen and (max-width: 497px) {
 	.tips .gallery-grid {
 		float: left;
 		width: calc(100% - 1em);
@@ -4745,25 +4746,25 @@ h2.terms_title{
 	background-color: #fff;
 	box-shadow: 0 0 20px 1px white;
 	color: #DC6DFF;
-    border-radius: 10px;
-    border: 3px solid #DC6DFF;
+	border-radius: 10px;
+	border: 3px solid #DC6DFF;
 }
 
-.first_block.yellow_block{
+.first_block.yellow_block {
 	color: #FFCA00;
 	border: 3px solid #FFCA00;
 }
 
-.first_block img{
-    width: 40px;
-    padding: 5px;
+.first_block img {
+	width: 40px;
+	padding: 5px;
 }
 
-h2.title_section{
+h2.title_section {
 	color: #DC6DFF !important;
 }
 
-.first_block.yellow_block h2.title_section{
+.first_block.yellow_block h2.title_section {
 	color: #FFCA00 !important;
 }
 
@@ -4935,15 +4936,15 @@ h2.title_section{
 	width: 120px;
 }
 
-.left_side{
+.left_side {
 	padding: 0;
 }
 
-.right_side{
+.right_side {
 	padding-right: 0;
 }
 
-.right_side .trend-grid{
+.right_side .trend-grid {
 	padding-right: 0;
 }
 
@@ -4960,9 +4961,9 @@ h2.title_section{
 }
 
 .img-ltpwr-agile a {
-    display: flex;
-    height: 105px;
-    align-items: center;
+	display: flex;
+	height: 105px;
+	align-items: center;
 }
 
 @media screen and (max-width: 992px) {
@@ -4970,7 +4971,7 @@ h2.title_section{
 		height: 80px;
 	}
 
-	.footer img{
+	.footer img {
 		border-radius: 5px;
 	}
 }
@@ -4998,77 +4999,85 @@ h2.title_section{
 	height: 315px;
 }
 
-.games .img-responsive .zoom-img img{
+.games .img-responsive .zoom-img img {
 	height: 160px;
 }
 
 @media screen and (max-width:1200px) {
+
 	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img,
 	.games .new_games_img {
 		height: 220px;
 	}
 
-	.all_games .new-grid-ltpwrl img{
+	.all_games .new-grid-ltpwrl img {
 		height: 150px;
 	}
 }
 
 @media screen and (max-width:1000px) {
-	.all_games .new-grid-ltpwrl img{
+	.all_games .new-grid-ltpwrl img {
 		height: 120px;
 	}
 }
 
 @media screen and (max-width:992px) {
+
 	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img,
-	.games .new_games_img  {
+	.games .new_games_img {
 		height: 250px;
 	}
 }
 
 @media screen and (max-width:991px) {
+
 	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img,
-	.games .new_games_img  {
+	.games .new_games_img {
 		height: 210px;
 	}
 }
 
 @media screen and (max-width:990px) {
+
 	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img,
-	.games .new_games_img  {
+	.games .new_games_img {
 		height: 200px;
 	}
 }
 
 @media screen and (max-width:768px) {
+
 	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img,
-	.games .new_games_img  {
+	.games .new_games_img {
 		height: 215px;
 	}
 }
 
 @media screen and (max-width:755px) {
+
 	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img,
-	.games .new_games_img  {
+	.games .new_games_img {
 		height: 180px;
 	}
 }
 
 @media screen and (max-width:755px) {
+
 	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img,
-	.games .new_games_img  {
+	.games .new_games_img {
 		height: 180px;
 	}
 }
 
 @media screen and (max-width:729px) {
+
 	.new-grid-ltpwrl,
 	.new-grid-agile {
 		width: 100%;
@@ -5076,46 +5085,52 @@ h2.title_section{
 }
 
 @media screen and (max-width:700px) {
-	.new-grid-ltpwrl img, .tips .new-grid-ltpwrl img,
+
+	.new-grid-ltpwrl img,
+	.tips .new-grid-ltpwrl img,
 	.games .new_games_img {
 		height: 178px;
 	}
 }
 
 @media screen and (max-width:668px) {
-	.all_games .new-grid-ltpwrl img{
+	.all_games .new-grid-ltpwrl img {
 		height: 100px;
 	}
 }
 
 @media screen and (max-width:569px) {
-	.all_games .new-grid-ltpwrl img{
+	.all_games .new-grid-ltpwrl img {
 		height: auto;
 	}
 }
 
 @media screen and (max-width:600px) {
-	.new-grid-ltpwrl img, .tips .new-grid-ltpwrl img,
+
+	.new-grid-ltpwrl img,
+	.tips .new-grid-ltpwrl img,
 	.games .new_games_img {
 		height: 160px;
 	}
 }
 
-@media screen and (max-width:568px){
+@media screen and (max-width:568px) {
 	.games .new_games_img {
 		height: auto;
 	}
 }
 
 @media screen and (max-width:550px) {
-	.new-grid-ltpwrl img, 
-	.tips .new-grid-ltpwrl img{
+
+	.new-grid-ltpwrl img,
+	.tips .new-grid-ltpwrl img {
 		height: 135px;
 	}
 }
 
 @media screen and (max-width:496px) {
-	.new-grid-ltpwrl img, 
+
+	.new-grid-ltpwrl img,
 	.tips .new-grid-ltpwrl img {
 		height: auto;
 	}
@@ -5144,30 +5159,37 @@ h2.title_section{
 	}
 }
 
-.img-game{
+.img-game {
 	width: 60%;
 }
 
 .for_form {
-    float: right;
-    padding-top: 25px;
+	float: right;
+	padding-top: 25px;
 }
 
-.for_form.second_text{
-	float: none;
+.for_form.second_text {
+	float: inherit;
 	width: auto;
+	margin: 0 auto;
 }
 
-.for_form ul{
+@media (min-width: 992px) {
+	.for_form.second_text {
+		width: 50%;
+	}
+}
+
+.for_form ul {
 	padding-left: 20px;
 }
 
-#faq h4{
+#faq h4 {
 	margin-top: 15px;
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
-#faq p{
+#faq p {
 	font-size: 14px;
 	line-height: inherit;
 	padding-bottom: 0;
